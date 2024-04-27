@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+select count(*)
+from (
+SELECT distinct name
+from ANIMAL_INS
+where name is not null) A;
