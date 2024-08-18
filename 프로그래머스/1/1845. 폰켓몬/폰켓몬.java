@@ -8,9 +8,7 @@ class Solution {
         for(int i = 0 ; i < nums.length; i++){
             set.add(nums[i]);
         }
-        
-        if(answer >= set.size()) answer = set.size();
-        
+        if( answer > set.size()) answer = set.size();
         return answer;
     }
 }
